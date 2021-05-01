@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <title>Site Cafeteria</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
 </head>
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#" class="logo"><img src="src/images/logo.png"></a>
             <ul>
@@ -35,10 +37,17 @@
                 </div>
             </div>
             <ul class="thumb">
-                <li><img src="src/images/thumb1.png"></li>
-                <li><img src="src/images/thumb2.png"></li>
-                <li><img src="src/images/thumb3.png"></li>
+                <li><img src="src/images/thumb1.png" onmouseover="imgSlider('src/images/img1.png');changeCircleColor('#017143')"></li>
+                <li><img src="src/images/thumb2.png" onmouseover="imgSlider('src/images/img2.png');changeCircleColor('#eb7495')"></li>
+                <li><img src="src/images/thumb3.png" onmouseover="imgSlider('src/images/img3.png');randomCircleColor()"></li>
             </ul>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/Starbucks"> <img src="src/images/facebook.png"> </a></li>
+                <li><a href="https://www.instagram.com/starbucksbrasil/"> <img src="src/images/instagram.png"> </a></li>
+                <li><a href="https://twitter.com/StarbucksBrasil"> <img src="src/images/twitter.png"> </a></li>
+               
+            </ul>
+
     </section>
 
 </body>
